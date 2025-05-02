@@ -1,0 +1,387 @@
+{
+    "BMW": [
+      "Série 1",
+      "Série 1 3p",
+      "Série 2 Active Tourer",
+      "Série 3",
+      "Série 3 coupé",
+      "Série 4 Coupé",
+      "Série 4 Gran Coupé",
+      "Série 5",
+      "Série 6",
+      "Série 7",
+      "X1",
+      "X2",
+      "X3",
+      "X4",
+      "X5",
+      "X6"
+    ],
+    "Volkswagen": [
+      "Amarok",
+      "Caddy",
+      "Eos",
+      "Golf 2",
+      "Golf 5",
+      "Golf 6",
+      "Golf 7",
+      "Golf 8",
+      "Golf Plus",
+      "Jetta",
+      "Passat",
+      "Passat CC",
+      "Polo",
+      "Polo Sedan",
+      "Scirocco",
+      "T-roc",
+      "Tiguan",
+      "Touareg",
+      "Transporter Combi 6.1"
+    ],
+    "Peugeot": [
+      "2008",
+      "206",
+      "206+",
+      "207",
+      "208",
+      "3008",
+      "3008 GT",
+      "301",
+      "307",
+      "308",
+      "4008",
+      "407",
+      "5008",
+      "504",
+      "508",
+      "Bipper",
+      "Expert",
+      "Landtrek Double Cabine",
+      "Partner",
+      "Partner Origin Utilitaire",
+      "Rifter"
+    ],
+    "Opel": [
+      "Calibra",
+      "Mokka"
+    ],
+    "Mercedes-Benz": [
+      "220",
+      "CLA",
+      "CLC",
+      "CLS",
+      "Classe A",
+      "Classe B",
+      "Classe C",
+      "Classe C coupé",
+      "Classe E",
+      "Classe E coupé",
+      "Classe GL",
+      "Classe S",
+      "Classe X",
+      "GLA",
+      "GLC",
+      "GLC Coupé",
+      "GLE Coupé",
+      "ML"
+    ],
+    "Porsche": [
+      "Cayenne",
+      "Cayenne Coupé",
+      "Macan",
+      "Panamera"
+    ],
+    "Land": [
+      "Rover Defender 110",
+      "Rover Discovery",
+      "Rover Discovery Sport",
+      "Rover Freelander",
+      "Rover Range Rover",
+      "Rover Range Rover Evoque",
+      "Rover Range Rover Sport",
+      "Rover Range Rover Velar"
+    ],
+    "Citroën": [
+      "Berlingo",
+      "Berlingo Utilitaire",
+      "C-Elysée",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C4 Cactus",
+      "C4 Picasso",
+      "C5",
+      "DS3",
+      "DS5",
+      "Jumpy Combi",
+      "Jumpy Fourgon",
+      "Nemo",
+      "Saxo"
+    ],
+    "Audi": [
+      "A3",
+      "A3 Berline",
+      "A3 Sportback",
+      "A4",
+      "A5 Cabriolet",
+      "A5 Coupé",
+      "A5 Sportback",
+      "A6",
+      "Q2",
+      "Q3",
+      "Q5",
+      "Q7",
+      "Q8",
+      "S5"
+    ],
+    "Jaguar": [
+      "F-Pace",
+      "X-Type",
+      "XE",
+      "XF",
+      "XJ",
+      "XJL"
+    ],
+    "KIA": [
+      "Carens",
+      "Cee'd",
+      "Cerato 5p",
+      "Optima",
+      "Picanto",
+      "Quoris",
+      "Rio 5p",
+      "Rio Berline",
+      "Sorento",
+      "Sportage",
+      "Stinger",
+      "XCeed"
+    ],
+    "Mini": [
+      "3 portes",
+      "5 portes",
+      "Cabriolet",
+      "Clubman",
+      "Cooper S",
+      "Countryman",
+      "John Cooper Works"
+    ],
+    "Mazda": [
+      "2 Sedan",
+      "3",
+      "3 sedan",
+      "6",
+      "BT-50",
+      "CX-3",
+      "CX-5",
+      "CX-7",
+      "CX-9"
+    ],
+    "Ford": [
+      "Ecosport",
+      "Fiesta",
+      "Focus",
+      "Fusion",
+      "Ka",
+      "Kuga",
+      "Mondeo",
+      "Mustang",
+      "Ranger",
+      "Transit"
+    ],
+    "Seat": [
+      "Arona",
+      "Ateca",
+      "Ibiza",
+      "Ibiza SC",
+      "Leon",
+      "Leon SC"
+    ],
+    "Toyota": [
+      "Aygo",
+      "C-HR",
+      "Corolla",
+      "Hilux Double Cabine",
+      "Land Cruiser",
+      "Prado",
+      "RAV 4",
+      "Yaris"
+    ],
+    "Renault": [
+      "Captur",
+      "Clio",
+      "Fluence",
+      "Kadjar",
+      "Laguna Coupé",
+      "Megane",
+      "Megane Sedan",
+      "Symbol",
+      "Velsatis"
+    ],
+    "Dacia": [
+      "Dokker Van",
+      "Duster",
+      "Logan"
+    ],
+    "Nissan": [
+      "Juke",
+      "Micra",
+      "Patrol",
+      "Qashqai",
+      "Qashqai+2",
+      "Terrano"
+    ],
+    "Jeep": [
+      "Cherokee",
+      "Compass",
+      "Grand Cherokee",
+      "Renegade",
+      "Wrangler",
+      "Wrangler Unlimited"
+    ],
+    "Ssangyong": [
+      "Actyon Sports",
+      "Tivoli"
+    ],
+    "Mitsubishi": [
+      "ASX",
+      "Attrage",
+      "L200 Double Cabine",
+      "L200 Sportero",
+      "Pajero",
+      "Pajero Sport"
+    ],
+    "Great": [
+      "Wall M4"
+    ],
+    "DS": [
+      "3",
+      "4 Crossback",
+      "5",
+      "7 Crossback"
+    ],
+    "Fiat": [
+      "500",
+      "500X",
+      "Doblo",
+      "Fiorino",
+      "Grande Punto",
+      "Linea",
+      "Palio",
+      "Panda",
+      "Punto",
+      "Tipo 5 portes"
+    ],
+    "Mahindra": [
+      "KUV 100",
+      "Scorpio SUV"
+    ],
+    "Isuzu": [
+      "D-Max Double Cabine",
+      "Mu-x"
+    ],
+    "Hyundai": [
+      "Accent",
+      "Creta",
+      "Elantra",
+      "Galloper",
+      "Grand i10",
+      "Grand i10 Sedan",
+      "H-1",
+      "Tucson",
+      "Veloster",
+      "i20",
+      "ix35"
+    ],
+    "Hummer": [
+      "H2",
+      "H3"
+    ],
+    "Chevrolet": [
+      "Captiva",
+      "Cruze",
+      "Sonic",
+      "Suburban"
+    ],
+    "Suzuki": [
+      "Baleno",
+      "Celerio",
+      "Jimny 3 portes",
+      "Swift",
+      "Vitara"
+    ],
+    "Honda": [
+      "Accord",
+      "CR-V",
+      "Civic"
+    ],
+    "Skoda": [
+      "Fabia",
+      "Kushaq",
+      "Octavia",
+      "Rapid"
+    ],
+    "Alfa": [
+      "Romeo Giulietta",
+      "Romeo Mito"
+    ],
+    "BAIC": [
+      "YX Kenbo S3"
+    ],
+    "Haval": [
+      "H2",
+      "H6",
+      "H9"
+    ],
+    "MG": [
+      "GS",
+      "ZS"
+    ],
+    "Iveco": [
+      "Daily Fourgon"
+    ],
+    "Chery": [
+      "E3",
+      "Tiggo 2",
+      "Tiggo 3",
+      "Tiggo 4"
+    ],
+    "Infiniti": [
+      "FX"
+    ],
+    "Lexus": [
+      "LS 430"
+    ],
+    "Dodge": [
+      "RAM"
+    ],
+    "Dongfeng": [
+      "Forthing T5 EVO"
+    ],
+    "Volvo": [
+      "S60",
+      "S80",
+      "XC60"
+    ],
+    "Geely": [
+      "GC6"
+    ],
+    "Tata": [
+      "Xenon X2 Double Cabine 4x4"
+    ],
+    "ZXAUTO": [
+      "Terralord"
+    ],
+    "Lancia": [
+      "Ypsilon"
+    ],
+    "Lincoln": [
+      "Navigator"
+    ],
+    "GMC": [
+      "Acadia"
+    ],
+    "Smart": [
+      "ForFour"
+    ]
+  }

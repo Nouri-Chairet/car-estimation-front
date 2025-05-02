@@ -1,0 +1,204 @@
+.estimate-container {
+  background: url('../assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.estimate-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.logo-icon img {
+  height: 40px;
+  width: auto;
+}
+
+.back-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  color: #22a45c;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.estimate-content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.estimate-content h1 {
+  text-align: center;
+  color: #1b5e20;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.749);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-section h2 {
+  color: #1b5e20;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #000000 !important;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #22a45c;
+  box-shadow: 0 0 0 2px rgba(34, 164, 92, 0.1);
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.next-button,
+.estimate-button {
+  padding: 0.75rem 2rem;
+  background: #22a45c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.next-button:hover,
+.estimate-button:hover {
+  background: #1b8549;
+  transform: translateY(-2px);
+}
+
+.result-section {
+  text-align: center;
+  padding: 2rem;
+  background: url('../assets/back2.png') no-repeat center center;
+  background-size: cover;
+  border-radius: 20px;
+  color: white;
+}
+
+.result-section h2 {
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.price-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.restart-button {
+  padding: 0.75rem 2rem;
+  background: white;
+  color: #22a45c;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.restart-button:hover {
+  background: #f8f8f8;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+
+  .estimate-content {
+    padding: 1rem;
+  }
+
+  .form-container {
+    padding: 1.5rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .price-display {
+    font-size: 2rem;
+  }
+} 
